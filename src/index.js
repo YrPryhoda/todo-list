@@ -1,12 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react';      // React библиотека
+import ReactDOM from 'react-dom'; // Виртуальное дерево DOM REact
+import App from './components/app'
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// -------------------------- //
+const block = document.querySelector('#root');  //find block where React components will be rendered
+ReactDOM.render(<App />, block); // do React render in html block

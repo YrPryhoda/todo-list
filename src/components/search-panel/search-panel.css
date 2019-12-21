@@ -1,0 +1,7 @@
+.search-input {
+  display: inline-block;
+    width: auto;
+    flex-grow: 1;
+    margin: 0 3px 0 0;
+    /** line-height: 1.8em; **/
+  }
